@@ -1,10 +1,20 @@
 # MessageBoard v0.1
-项目简介
+
+## 项目简介
+
 这是一个部署在 Monad Testnet 上的最小 Solidity 智能合约，用于学习智能合约开发流程。
+
 该合约实现了一个简单的留言板功能：
+
 - writeMessage(string)：写入一条留言
 - readMessage()：读取当前保存的留言
+
 整个项目主要用于学习 Solidity 编写、Remix 编译部署、MetaMask 钱包连接、Monad Testnet 部署以及链上交互流程。
+
+---
+
+## 合约功能
+
 ### writeMessage(string)
 
 用于修改链上的 message。
@@ -88,4 +98,3 @@ readMessage()
 - 链上交易确认
 - 合约读写交互
 - 区块浏览器查看 Transaction Hash
-
